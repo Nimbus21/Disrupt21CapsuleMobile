@@ -1,0 +1,56 @@
+<ion-content color = "dark">
+	<div>
+		<h1>Lista de eventos mais próximos da data digitada em <span> {{ cidade }} </span></h1>
+	</div>
+	<ion-card class="card-evento" tappable (click)="goToFundacao()">
+		<div class="img-box">
+				
+		</div>
+		<div class="overlay"></div>
+		<div class="title">
+			<div class="descricao">
+				<div class="half">
+					<label>Fundação de São Paulo</label>
+				</div>
+				<div class="half">
+					<label>25 de janeiro de 1554</label>
+				</div>
+			</div>
+		</div>
+	</ion-card><br>
+
+	<ion-card class="card-evento" tappable (click)="goToIndependencia()">
+		<div class="img-box2">
+				
+		</div>
+		<div class="overlay"></div>
+		<div class="title">
+			<div class="descricao">
+				<div class="half">
+					<label>Independência do Brasil</label>
+				</div>
+				<div class="half">
+					<label>7 de setembro de 1822</label>
+				</div>
+			</div>
+		</div>
+	</ion-card><br>
+
+	<ion-card class="card-evento" tappable (click)="goToVisita()">
+		<div class="img-box3">
+				
+		</div>
+		<div class="overlay"></div>
+		<div class="title">
+			<div class="descricao">
+				<div class="half">
+					<label>Visita do Papa Bento XVI</label>
+				</div>
+				<div class="half">
+					<label>9 de maio de 2007</label>
+				</div>
+			</div>
+		</div>
+	</ion-card>
+
+</ion-content>

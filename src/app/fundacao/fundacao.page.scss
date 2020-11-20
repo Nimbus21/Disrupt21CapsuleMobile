@@ -1,0 +1,25 @@
+ion-content{
+	--padding-start: 5%;
+	--padding-end: 5%;
+	--padding-top: 5%;
+
+	.header{
+		width: 100%;
+		height: 25%;
+		//background-color: pink
+
+		.img-box{
+		  background-image: url(../../assets/img/fundacao.jpg);
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  background-position: center;
+		  width: 100%;
+		  height: 100%;
+		}
+	}
+
+	.content{
+		width: 100%;
+		// background-color: green;
+	}
+}

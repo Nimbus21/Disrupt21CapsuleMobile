@@ -1,0 +1,28 @@
+<ion-content color = "dark">
+<!-- 	<h1>Você está em: {{ cidade }}</h1>
+ -->
+ 	<div class="start">
+ 		<h1>Você está em: <span>{{ cidade }}</span></h1>
+ 	</div>
+ 	<div>
+ 		Agora que sabemos sua localização, sua jornada no tempo está prestes a começar. Selecione abaixo a data para onde você quer viajar.
+ 	</div><br>
+ 	<div>
+ 		<ion-item color="dark">
+ 			<ion-label>Data atual</ion-label>
+ 			<p>{{ hoje | date:'dd MMMM, yyyy' }}</p>
+ 		</ion-item>
+		<ion-item color="dark">
+			<ion-label>Data destino</ion-label>
+			<ion-datetime min="1500" max="2020"
+			displayFormat="DD MMMM, YYYY"
+			dayShortNames="Dom, Seg, Ter, Qua, Qui, Sex, Sab"
+			[monthNames]="customMonthNames"></ion-datetime>
+		</ion-item>
+ 	</div><br>
+ 	<div class="div2">
+      <ion-button (click)="goToEventos()">
+        <label>Iniciar viagem</label>
+      </ion-button>
+    </div>
+ </ion-content>

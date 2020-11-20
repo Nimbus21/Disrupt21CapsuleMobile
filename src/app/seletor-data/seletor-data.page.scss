@@ -1,0 +1,22 @@
+ion-content{
+	--padding-start: 5%;
+	--padding-end: 5%;
+	--padding-top: 5%;
+
+	span{
+		color: #51dfff;
+	}
+
+	.start{
+		width: 100%;
+		// height: 5%;
+		// background-color: purple;
+	}
+
+	.div2{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  width: 100%;
+	}
+}
